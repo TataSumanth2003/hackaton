@@ -1,0 +1,59 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+    background-color: rgb(154, 153, 153);
+}
+
+.container{
+    padding:20px;
+    border-radius: 10px;
+    width:50%;
+    height:80%;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 0 10px red;
+}
+input{
+    width:40%;
+    height:25px;
+    margin-bottom:10px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size:20px;
+    color:black;
+}
+#amount{
+    margin-top:30px;
+}
+
+.btn{
+    margin-top: 10px;
+    padding:10px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: wheat;
+    background-color:rgb(43, 114, 91)
+}
+.btn:hover{
+    background-color: rgb(74, 162, 133);
+}
+
+table{
+  text-align: center;
+  border-collapse: collapse;
+}
+
+table,tr,th,td{
+    border:1px solid;
+}
+
+td{
+    padding:20px;
+}
